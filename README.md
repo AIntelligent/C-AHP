@@ -10,7 +10,7 @@
 | **Flexibility** | Static (no context awareness) | Moderate (global context-aware) | High (alternative-specific context-aware) |
 | **Contextual Weight Structure** | None | Global vector ($\omega_j$): one weight vector shared across all alternatives | Alternative-specific matrix ($\omega_{ij}$): contextualized per alternative and criterion |
 | **Main Limitation** | Risk of detachment from reality | Uniform evaluation across alternatives | Requires larger data and stronger domain expertise to parameterize $\omega_{ij}$ |
-| **Gradient-Based Learning** | ❌ No | ✅ Yes † | ✅ Yes † |
+| **Gradient-Based Learning** | ❌ No | ✅ Yes $\dagger$ | ✅ Yes $\dagger$ |
 | **Differentiability** | ❌ No | ⚠️ Partially differentiable (piecewise due to $\max$) | ⚠️ Partially differentiable (piecewise due to $\max$) |
 | **Entropy Control ($\tau$)** | ❌ No | ✅ Yes (temperature parameter $\tau$ tunes subjectivity–objectivity balance) | ✅ Yes (same as C-AHP, extended to contextual weights) |
 
