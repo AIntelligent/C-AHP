@@ -10,9 +10,9 @@
 | **Flexibility** | Static (no context awareness) | Moderate (global context-aware) | High (alternative-specific context-aware) |
 | **Contextual Weight Structure** | None | Global vector ($\omega_j$): one weight vector shared across all alternatives | Alternative-specific matrix ($\omega_{ij}$): contextualized per alternative and criterion |
 | **Main Limitation** | Risk of detachment from reality | Uniform evaluation across alternatives | Requires larger data and stronger domain expertise to parameterize $\omega_{ij}$ |
-| **Gradient-Based Learning** | ❌ No | ✅ Yes $\dagger$ | ✅ Yes $\dagger$ |
+| **Gradient-Based Learning** | ❌ No | ✅ Yes † | ✅ Yes † |
 | **Differentiability** | ❌ No | ⚠️ Partially differentiable (piecewise due to $\max$) | ⚠️ Partially differentiable (piecewise due to $\max$) |
 | **Entropy Control ($\tau$)** | ❌ No | ✅ Yes (temperature parameter $\tau$ tunes subjectivity–objectivity balance) | ✅ Yes (same as C-AHP, extended to contextual weights) |
 
-> $\dagger$ End-to-end learning is feasible when the position of $\max_{m} t_{im}$ remains fixed during training (i.e., decision topology is stable).
+> † End-to-end learning is feasible when the position of $\max_{m} t_{im}$ remains fixed during training (i.e., decision topology is stable).
 
