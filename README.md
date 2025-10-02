@@ -10,8 +10,8 @@ Contextual-Analytic Hiyerarchy Process (AHP)
 | **Contextual Weight Structure** | None | Fixed vector ($\omega_j$) | Dynamic matrix ($\omega_{ij}$) |
 | **Main Limitation** | Risk of detachment from reality | Uniform evaluation across alternatives | Requires more data and domain expertise |
 | **Gradient-Based Learning** | ❌ No | ✅ Yes $$\dagger$$ | ✅ Yes $$\dagger$$ |
-| **Differentiability** | ❌ No | ⚠️ Partial (due to $\max$ operator) | ⚠️ Partial (due to $\max$ operator) |
+| **Differentiability** | ❌ No | ⚠️ Partial (due to $\max$ operator) | ⚠️ Partial (due to $$\max$$ operator) |
 | **Entropy Control ($\tau$)** | ❌ No | ✅ Yes | ✅ Yes |
 
-> $$\dagger$$ End-to-end learning is feasible when the position of $$\max_{m} t_{im}$$ remains fixed during training (i.e., decision topology is stable).
+> $$\dagger$$ End-to-end learning is feasible when the position of $\max_{m} t_{im}$ remains fixed during training (i.e., decision topology is stable).
 
