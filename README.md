@@ -3,7 +3,7 @@ Contextual and Enhanced-Contextual Analytic Hiyerarchy Process (AHP)
 
 | Feature | Classical AHP | C-AHP | C-AHP++ |
 | :--- | :--- | :--- | :--- |
-| **Decision Basis** | Purely subjective | Subjective + global objective | Subjective + contextual objective |
+| **Decision Basis** | Purely subjective | Subjective + global objective | Subjective + alternative-specific contextual objective |
 | **Input Requirements** | Pairwise judgments only | Judgments + global weights ($\alpha_i$, $\omega_j$) | Judgments + alternative-specific weights ($\alpha_i$, $\omega_{ij}$) |
 | **Subjectivity Issue** | Vulnerable ("Super Subjectivity Paradox") | Mitigated via balancing | Resolved via contextual reweighting |
 | **Flexibility** | None (static) | Moderate (global context-aware) | High (alternative-specific context-aware) |
