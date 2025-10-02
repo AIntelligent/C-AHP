@@ -1,5 +1,5 @@
-# C-AHP
-Contextual-Analytic Hiyerarchy Process (AHP)
+# C-AHP and C-AHP++
+Contextual and Enhanced-Contextual Analytic Hiyerarchy Process (AHP)
 
 | Feature | Classical AHP | C-AHP | C-AHP++ |
 | :--- | :--- | :--- | :--- |
