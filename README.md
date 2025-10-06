@@ -41,4 +41,4 @@ C-AHP and C-AHP++ are two improved versions of the AHP method. In this repositor
       - `Technology-Company-Investment-Decision_(Tau=2.0).pdf`: Output file containing all data sets and results for the technology company investment decision problem for $\tau = 2.0$.
  
 ## Direct Download
-[![DOI](https://zenodo.org/badge/1034360450.svg)](https://doi.org/10.5281/zenodo.16881842)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17281989.svg)](https://doi.org/10.5281/zenodo.17281989)
