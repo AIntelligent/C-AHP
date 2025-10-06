@@ -23,13 +23,22 @@ C-AHP and C-AHP++ are two improved versions of the AHP method. In this repositor
 > † End-to-end gradient learning is possible provided the $\max$-based decision topology remains constant during training.
 
 ## Files
-- `HBB.zip`: All the ingredients required for *Hemoglobin-β (HBB)*.
-  - `P68871.fasta`: This a bioinformatics file in FASTA fmat containing the *Hemoglobin-β* protein sequence from the **UniProt (Universal Protein Resource)** database.
-  - `last_alignment_data.txt`, `final_alignment_used.txt` and `final_alignment.clustal`: This is a *Hemoglobin-β* protein alignment file created in Clustal format.
-  - `C-Softmax_HBB_Notebook_v2_en.ipynb - Colab.pdf`: Results of HBB tests.
-  - `C_Softmax_HBB_Notebook_v2_en.ipynb`: Interactive Jupyter Notebook (compatible with Google Colab).
-  - `blosum62.txt`:
-
+  - `C-AHP_Experiments_v1.zip`: Package containing the problem to which the proposed methods are applied, the applied methods, all solution steps, data, results, result graphs, and outputs.
+    - `Car_Selection_Decision.ods`: Open Office Calc (or Excel) file containing the step-by-step solution and formulations of the car selection problem using AHP, C-AHP, and C-AHP++ methods.
+    - `Car_Selection_Decision_All_Results_Comparison_With_Graphs.pdf`: Output file comparing all method outputs with data and schematics.
+    - `Car_Selection_Decision_C-AHP(Tau=0.5).pdf`: Output file containing all data sets and results for the $\tau = 0.5$ parameter of the C-AHP method.
+    - `Car_Selection_Decision_C-AHP(Tau=1.0).pdf`: Output file containing all datasets and results for the $\tau = 1.0$ parameter of the C-AHP method.
+    - `Car_Selection_Decision_C-AHP(Tau=2.0).pdf`: Output file containing all datasets and results for the $\tau = 2.0$ parameter of the C-AHP method.
+    - `Car_Selection_Decision_C-AHP++(Tau=0.5).pdf`: Output file containing all datasets and results for the $\tau = 0.5$ parameter of the C-AHP++ method.
+    - `Car_Selection_Decision_C-AHP++(Tau=1.0).pdf`: Output file containing all datasets and results for the $\tau = 1.0$ parameter of the C-AHP++ method.
+    - `Car_Selection_Decision_C-AHP++(Tau=2.0).pdf`: Output file containing all datasets and results for the $\tau = 2.0$ parameter of the C-AHP++ method.
+    - `C-AHP_Simple_Exams.zip`: A package containing all datasets, solutions, results, and result graphs for the example problems solved in the article.
+      - `Choosing_A-Laptop_(Tau=0.5).pdf`: Output file containing all datasets and results for the $\tau = 0.5$ parameter of the laptop choice problem.
+      - `Choosing_A-Laptop_(Tau=1.0).pdf`: Output file containing all datasets and results for the $\tau = 1.0$ parameter of the laptop choice problem.
+      - `Choosing_A-Laptop_(Tau=2.0).pdf`: Output file containing all datasets and results for the $\tau = 2.0$ parameter of the laptop choice problem.
+      - `Technology-Company-Investment-Decision_(Tau=0.5).pdf`: Output file containing all data sets and results for the technology company investment decision problem for $\tau = 0.5$.
+      - `Technology-Company-Investment-Decision_(Tau=1.0).pdf`: Output file containing all data sets and results for the technology company investment decision problem for $\tau = 1.0$.
+      - `Technology-Company-Investment-Decision_(Tau=2.0).pdf`: Output file containing all data sets and results for the technology company investment decision problem for $\tau = 2.0$.
+ 
 ## Direct Download
 [![DOI](https://zenodo.org/badge/1034360450.svg)](https://doi.org/10.5281/zenodo.16881842)
-
